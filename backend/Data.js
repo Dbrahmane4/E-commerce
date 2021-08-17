@@ -11,7 +11,6 @@ const Data = {
     ],
     products: [
         {
-            _id: '1',
             name: 'Nike Slim Shirts',
             category: 'Shirts',
             image: '/image/d71045b2-4300-4395-b110-f652fa00e9e51579211471795-1.webp',
@@ -23,7 +22,6 @@ const Data = {
             description: 'High quality product',
         },
         {
-            _id: '2',
             name: 'Raymonds Slim Shirts',
             category: 'Shirts',
             image: '/image/d71045b2-4300-4395-b110-f652fa00e9e51579211471795-1.webp',
@@ -34,8 +32,7 @@ const Data = {
             numReviews: 11,
             description: 'Medium quality product',
         },
-        {
-            _id: '3',
+        {   
             name: 'Adidas Slim Shirts',
             category: 'Shirts',
             image: '/image/d71045b2-4300-4395-b110-f652fa00e9e51579211471795-1.webp',
@@ -47,7 +44,6 @@ const Data = {
             description: 'High quality product',
         },
         {
-            _id: '4',
             name: 'Being Human Slim Shirts',
             category: 'Shirts',
             image: '/image/d71045b2-4300-4395-b110-f652fa00e9e51579211471795-1.webp',
@@ -59,7 +55,6 @@ const Data = {
             description: 'Medium quality product',
         },
         {
-            _id: '5',
             name: 'Monte Carlo Slim Shirts',
             category: 'Shirts',
             image: '/image/d71045b2-4300-4395-b110-f652fa00e9e51579211471795-1.webp',
@@ -71,7 +66,6 @@ const Data = {
             description: 'High quality product',
         },
         {
-            _id: '6',
             name: 'Allen Solly Slim Shirts',
             category: 'Shirts',
             image: '/image/d71045b2-4300-4395-b110-f652fa00e9e51579211471795-1.webp',
