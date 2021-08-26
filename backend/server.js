@@ -3,6 +3,7 @@ import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import productRouter from './routers/productRouter.js';
 import userRouter from './routers/userRouter.js';
+import orderRouter from './routers/orderRouter.js';
 const port = process.env.PORT || 5000;
 
 dotenv.config();
@@ -18,6 +19,7 @@ mongoose.connect(process.env.MONGODB_URL || 'mongodb://localhost/DjMart', {
 
 app.use('/api/users', userRouter);
 app.use('/api/product', productRouter);
+app.use('/api/orders', orderRouter);
 
 app.get('/', (req, res) => {
     res.send("server is ready");
