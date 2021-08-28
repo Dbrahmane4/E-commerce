@@ -51,5 +51,9 @@ userRouter.post(
     })
 
   }));
+
+  userRouter.get("/:id", expressAsyncHandler(async (req, res) => {
+    const user = await User 
+  }))
   
   export default userRouter;
